@@ -42,6 +42,7 @@
 <a name="how-to" class="anchor" href="#how-to"><span class="octicon octicon-link"></span></a>How to Setup</h3>
 
 <p>Bootstrap-community requires a few prerequsites before use.</p>
+<p>Note: You may skip this if your host/server already includes these packages.</p>
 
 <ul>
     <li>If your server runs a Debian-based distro (Debian/Ubuntu/Xubuntu/etc...)
@@ -50,6 +51,9 @@
             <li>Install MySQL: <code>sudo apt-get install mysql-server mysql-client</code></li>
             <li>Install PHP5: <code>sudo apt-get install php5 libapache2-mod-php5</code></li>
             <li>Restart Apache: <code>sudo /etc/init.d/apache2 restart</code></li>
+            <li>Install PHP5 Libraries: <code>sudo apt-get install php5-mysql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-mhash php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-json</code></li>
+            <li>Restart Apache (Again): <code>sudo /etc/init.d/apache2 restart</code></li>
+            <li><strong>(Optional!)</strong> Install phpMyAdmin: <code>sudo apt-get install phpmyadmin</code></li>
         </ol>
     </li>
 </ul>
